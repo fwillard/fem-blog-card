@@ -13,13 +13,18 @@
     --gray-950: hsl(0, 0%, 7%);
 }
 
+main {
+    display: grid;
+    place-items: center;
+}
+
 .card {
-    width: 285px;
+    width: 90%;
+    max-width: 21.5rem;
     background-color: white;
     border-radius: 20px;
     padding: 20px;
     border: 1px var(--gray-950) solid;
-    margin: auto;
     box-shadow: 8px 8px 0px black;
     display: flex;
     flex-direction: column;
